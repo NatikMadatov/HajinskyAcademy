@@ -1,0 +1,268 @@
+/**{
+	margin-top:50px;
+	padding:0;
+
+	background-color: #e5e5e5;
+}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+
+*{
+	margin:0;
+	padding: 0;
+	
+}
+body{
+	
+}
+
+
+
+@media screen and (max-width: 1200px){
+
+	.box{
+		width: 100%;
+		margin-bottom: 10px;
+	    flex-direction: column;
+	}
+}
+
+
+
+@media screen and  (max-width: 742px){
+
+	.box{
+		max-width: 100%;
+		margin-bottom: 60px;
+		padding: 10px;
+	  	
+	}
+	
+
+}
+
+
+
+
+
+.bigbox{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	
+}
+
+
+
+.box{
+	width: 100%;
+	height: 270px;
+	
+	
+
+}
+
+
+
+.box{
+	width: 100%;
+	height: 270px;
+	
+	
+
+}
+
+.title{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    color: #323C43;
+    font-family: 'Montserrat', sans-serif;
+
+}
+p{
+	color: #15516A;
+	margin:0px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.title span{
+	color: #C4C4C4;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px !important;
+}
+
+
+
+
+ ul {
+    list-style-image: url(list.svg); /* Путь к изображению маркера */
+   }
+
+
+   .title_list{
+   	display: flex;
+   	justify-content: space-around;
+    
+
+   	
+   }
+
+   .title p{
+   	font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #15516A;
+}
+
+
+.btn{
+	border: 1px solid #15516A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 30px;
+    left: 45px;
+    bottom: 32px;
+    width: calc(100% - 76px);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #15516A;
+    transition: .2s ease;
+}
+
+.btn:hover{
+
+	 background-color: #15516A;
+    color: #fff;
+
+}   
+
+
+
+
+#window{
+	width: 1000px;
+	height: 500px;
+	margin: 50px auto;
+	background-color: #fff;
+	border :1px solid black;
+	border-radius: 15px;
+	z-index: 150;
+	display: none;
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+
+.form{
+	width: 600px;
+	/*margin: 0px auto 20px auto;*/
+	margin:50px auto;
+	text-align: center;
+
+
+}
+
+.input{
+	width: 180px;
+	padding: 5px;
+	margin:5px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+
+}
+input{
+	border: 1px solid #15516A;
+	border-radius: 5%;
+}
+textarea{
+	width: 570px;
+	height: 150px;
+	padding: 5px;
+	border: 1px solid #15516A;
+	margin-top: 40px;
+}
+
+.gonder{
+	border: 1px solid #15516A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 20px;
+    left: 10px;
+    bottom: 12px;
+    width: calc(100% - 45px);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color:#fff ;
+    background-color:#15516A; 
+    transition: .2s ease;
+
+}
+
+.gonder:hover{
+
+
+	 background-color: #fff;
+    color:#15516A ;
+
+}
+
+.close{
+	margin: 10px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	padding: 2px;
+	background-color: #ccc;
+
+
+}
+
+.close:hover{
+	background-color: #fff;
+}
+
+
+#gray{
+	opacity: 0.8;
+	padding: 15px;
+	background-color: rgba(1,1,1,0.75);
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	display: none;
+	z-index: 100;
+	overflow: auto;
+	
+
+}
+
+
+ 
+
+
+
+
+
